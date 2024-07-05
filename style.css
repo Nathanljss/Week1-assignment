@@ -1,0 +1,83 @@
+.navbar {
+  font-family: monospace;
+  position: fixed;
+  display: flex;
+  color: antiquewhite;
+  flex-direction: row;
+  z-index: 1;
+  font-size: 30px;
+  gap: 30px;
+  background-color: black;
+  border: solid white;
+  border-radius: 20px;
+  padding-right: 20px;
+  margin: 20px;
+  height: 40px;
+}
+
+.company {
+  margin-top: 0px;
+  padding-left: 20px;
+}
+
+.feature {
+  height: 100vh;
+  position: relative;
+  background-image: url(codebackground.jpg);
+  background-size: cover;
+  background-position: center center;
+  color: antiquewhite;
+  font-size: 50px;
+  font-family: "Courier New", Courier, monospace;
+  display: block;
+  height: 900px;
+  text-align: left;
+}
+
+.title {
+  position: absolute;
+  bottom: 250px;
+  left: 50px;
+}
+
+body {
+  background-color: black;
+}
+
+.mid {
+  background-image: url(splashpageimage2.jpg);
+  display: block;
+  height: 1000px;
+}
+
+.midtext {
+  color: antiquewhite;
+  font-size: 50px;
+  font-family: "Courier New", Courier, monospace;
+  position: absolute;
+  border: solid white;
+  background-color: black;
+  border-radius: 20px;
+  top: 1200px;
+  text-align: right;
+  justify-self: right;
+  margin: 20px;
+  padding: 10px;
+}
+
+.bottom {
+  background-image: url(splashpageimage3.jpg);
+  position: relative;
+  display: block;
+  height: 1000px;
+}
+
+a {
+  color: antiquewhite;
+}
+
+.signature {
+  color: antiquewhite;
+  text-align: center;
+  font-family: monospace;
+}
